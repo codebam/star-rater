@@ -1,0 +1,29 @@
+html {
+	color: white;
+	background-color: black;
+}
+
+html, body {
+	height: 100%;
+}
+
+html {
+	display: table;
+	margin: auto;
+}
+
+body {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+button {
+	margin-top: 10%;
+}
+
+div.star {
+	float:left;
+	font-size: 5em;
+	color: yellow;
+}

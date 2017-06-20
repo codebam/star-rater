@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Star Rater</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+
+    </head>
+    <body>
+        <h1>Star Rater</h1>
+        <p id="message">Please rate your experience below</p>
+
+        <div class="stars">
+            <a href="#" onclick="set_stars(1)"><div class="star" id="star-1">☆</div></a>
+            <a href="#" onclick="set_stars(2)"><div class="star" id="star-2">☆</div></a>
+            <a href="#" onclick="set_stars(3)"><div class="star" id="star-3">☆</div></a>
+            <a href="#" onclick="set_stars(4)"><div class="star" id="star-4">☆</div></a>
+            <a href="#" onclick="set_stars(5)"><div class="star" id="star-5">☆</div></a>
+        </div>
+
+        <button onclick="submitRating()" id="button-submit">Submit</button>
+    </body>
+</html>
